@@ -20,6 +20,11 @@ body{
 }
 .nav-bar{
    background-color: gainsboro;
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 3;
 }
 nav ul li a{
   position: relative;
@@ -50,7 +55,7 @@ nav ul li a:hover::after{
 }
 .hero-container{
     background-color: #169788;
-    height: 240px;
+    height: 200px;
 }
 .hero-text{
     background-color: #169788;
